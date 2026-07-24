@@ -1,5 +1,3 @@
-# 📡 Signal Framework
-
 **Signal** is a high-performance, feature-packed networking package for Roblox designed to make client-server communication fast, safe, and effortless.
 
 It handles automatic remote instantiation, race-condition prevention, state synchronization, promise-based invocations, rate-limiting, and bandwidth diagnostics out of the box.
@@ -16,20 +14,3 @@ It handles automatic remote instantiation, race-condition prevention, state sync
 * 🤝 **Two-Way ACK Delivery:** Confirms packet receipt for critical gameplay events.
 * 🔄 **Property State Synchronization:** Bind server variables directly to client UI observers.
 * 📊 **Bandwidth Profiler:** Real-time bandwidth usage reports and diagnostic statistics.
-
----
-
-## 📦 Directory Structure
-
-```text
-src/
-├── Core/
-│   ├── Event.lua
-│   ├── Function.lua
-│   ├── Registry.lua
-│   └── State.lua
-├── Client.lua
-├── Init.lua (Main Entry Point)
-├── Server.lua
-├── Shared.lua
-└── Types.lua
