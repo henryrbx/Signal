@@ -3,6 +3,11 @@
 It handles automatic remote instantiation, race-condition prevention, state synchronization, promise-based invocations, rate-limiting, and bandwidth diagnostics out of the box.
 
 ---
+## 🛠️ Installation
+
+* Get the `Signal` Package from `Creator Store`.
+* Copy the whole `Src/` from github.
+* Read the Docs [Here](https://henryrbx.github.io/Signal/)
 
 ## ⚡ Features
 
