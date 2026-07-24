@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/evaera/moonwave/main/moonwave.schema.json",
+  "title": "Signal",
+  "tagline": "Modern networking framework for Roblox.",
+  "gitSourceBranch": "main",
+  "gitRepoName": "Signal",
+  "gitRepoOwner": "henryrbx",
+  "docs": [
+    "src"
+  ]
+}

@@ -1,0 +1,39 @@
+site_name: Signal
+site_description: Modern networking framework for Roblox.
+site_author: Henry
+
+repo_name: henryrbx/Signal
+repo_url: https://github.com/henryrbx/Signal
+
+theme:
+  name: material
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: white
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+nav:
+  - Home: index.md
+  - Guide: guide.md
