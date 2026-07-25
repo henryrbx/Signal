@@ -9,7 +9,7 @@ This guide covers every feature available in Signal, from local signals to advan
 Local signals never cross the network and execute only in the environment they were created.
 
 ```lua
-local Changed = Signal.Signal()
+local Changed = Signal.new()
 
 Changed:Connect(function(value)
     print(value)
@@ -324,7 +324,7 @@ No manual setup inside `ReplicatedStorage` is required.
 
 | Constructor | Description |
 |-------------|-------------|
-| `Signal.Signal()` | Creates a local signal. |
+| `Signal.new` | Creates a local signal. |
 | `Signal.Event(name)` | Gets or creates a `RemoteEvent`. |
 | `Signal.Function(name)` | Gets or creates a `RemoteFunction`. |
 | `Signal.Unreliable(name)` | Gets or creates an `UnreliableRemoteEvent`. |
