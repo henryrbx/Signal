@@ -5,7 +5,7 @@ It handles automatic remote instantiation, race-condition prevention, state sync
 ---
 ## 🛠️ Installation
 
-* Get the `Signal` Package from `Creator Store`.
+* Get the `Signal` Package from [`Creator Store`](https://create.roblox.com/store/asset/136044091977832/Signal).
 * Copy the whole `Src/` from github.
 * Read the Docs [Here](https://henryrbx.github.io/Signal/)
 
