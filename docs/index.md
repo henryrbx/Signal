@@ -1,8 +1,4 @@
-# 📡 Signal
-
-**Signal** is a modern communication framework for Roblox that unifies local events, networking, and synchronized state into a single, consistent API.
-
-Whether you're firing a local signal, sending a `RemoteEvent`, invoking a `RemoteFunction`, or synchronizing replicated state, Signal provides the same clean developer experience on both the client and server.
+ a modern communication framework for Roblox that unifies local events, networking, and synchronized state into a single, consistent API.
 
 Signal automatically creates and manages networking instances behind the scenes, eliminating manual setup and preventing common networking pitfalls such as race conditions.
 
