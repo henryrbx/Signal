@@ -8,27 +8,27 @@ Signal automatically creates and manages networking instances behind the scenes,
 
 ---
 
-## ✨ Features
+## Features
 
-- ⚡ Local Signals
-- 📡 RemoteEvents
-- 🛰️ UnreliableRemoteEvents
-- 🔄 RemoteFunctions
-- 🔄 State Synchronization
-- 🤝 Guaranteed ACK Delivery
-- 📦 Replay Buffers
-- 🛡️ Event Deduplication
-- 🚦 Request Rate Limiting
-- ⚡ Promise-based Invocations
-- 📊 Built-in Bandwidth Profiler
-- 🐞 Debug Logging
-- 🚀 Automatic Remote Creation
-- 📦 Automatic Remote Caching
-- 🖥️ Unified Client & Server API
+- Local Signals
+- RemoteEvents
+- UnreliableRemoteEvents
+- RemoteFunctions
+- State Synchronization
+- Guaranteed ACK Delivery
+- Replay Buffers
+- Event Deduplication
+- Request Rate Limiting
+- Promise-based Invocations
+- Built-in Bandwidth Profiler
+- Debug Logging
+- Automatic Remote Creation
+- Automatic Remote Caching
+- Unified Client & Server API
 
 ---
 
-# 📦 Installation
+# Installation
 
 Place the package inside **ReplicatedStorage**.
 
@@ -50,7 +50,7 @@ Signal automatically creates and manages all networking instances. No folders, `
 
 ---
 
-# 🚀 Quick Start
+# Quick Start
 
 ## Local Signal
 

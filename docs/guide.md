@@ -1,10 +1,10 @@
-# 📖 Guide
+# Guide
 
 This guide covers every feature available in Signal, from local signals to advanced networking features.
 
 ---
 
-# ⚡ Local Signals
+# Local Signals
 
 Local signals never cross the network and execute only in the environment they were created.
 
@@ -30,7 +30,7 @@ Changed:Fire(100)
 
 ---
 
-# 📡 Remote Events
+# Remote Events
 
 Reliable communication between the server and clients.
 
@@ -90,7 +90,7 @@ local Attack = Signal.Event("Attack")
 
 ---
 
-# 🔄 Remote Functions
+# Remote Functions
 
 Remote Functions allow clients to request data from the server.
 
@@ -135,7 +135,7 @@ Inventory:InvokeServerAsync()
 
 ---
 
-# 🤝 Guaranteed ACK Delivery
+# Guaranteed ACK Delivery
 
 Guarantees that important packets reach the client before continuing.
 
@@ -178,7 +178,7 @@ Signal automatically handles acknowledgment packets.
 
 ---
 
-# 🔄 State Synchronization
+# State Synchronization
 
 Synchronize server-side values with client observers.
 
@@ -214,7 +214,7 @@ end)
 
 ---
 
-# 🛰️ Unreliable Events
+# Unreliable Events
 
 Uses Roblox's `UnreliableRemoteEvent` for high-frequency, non-critical communication.
 
@@ -245,7 +245,7 @@ Effects:FireServer(position)
 
 ---
 
-# 📊 Debugging & Profiling
+# Debugging & Profiling
 
 ## Debug Logging
 
@@ -296,7 +296,7 @@ Data: 0.06 KB
 
 ---
 
-# 📦 Automatic Registry
+# Automatic Registry
 
 Signal automatically manages networking instances.
 
@@ -318,7 +318,7 @@ No manual setup inside `ReplicatedStorage` is required.
 
 ---
 
-# 📚 API Summary
+# API Summary
 
 ## Constructors
 
