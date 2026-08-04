@@ -1,0 +1,9 @@
+[data-md-color-scheme="slate"] {
+  /* Header */
+  --md-primary-fg-color: #1e1e24;
+  --md-primary-fg-color--light: #2b2b36;
+  --md-primary-fg-color--dark: #121216;
+
+  /* Accent */
+  --md-accent-fg-color: #ffffff;
+}
